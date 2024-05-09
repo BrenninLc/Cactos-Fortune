@@ -1,0 +1,174 @@
+/* Estilos CSS para a página */
+
+body {
+    height:100%;
+    background-image: linear-gradient(to top, rgb(3, 3, 3) 20%, black 80%);
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Texto branco */
+}
+
+
+header  {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+    header h1 {
+        margin: 0;
+    }
+
+nav {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}
+/* Estilos para os ícones e bordas */
+table {
+    border-collapse: collapse;
+    width: 70%; /* 70% de largura para a tabela */
+    float: left; /* Adiciona flutuação para a esquerda */
+}
+
+table, th, td {
+    border: 1px solid #ff65a3; /* Bordas amagenta */
+}
+
+    .tabela1 img {
+        width: 100px;
+        height: 100px;
+        background-color: #ff3434; /* Fundo branco para os ícones */
+        padding: 10px;
+    }
+    .tabela1 img :hover{
+        width: 100px;
+        height: 100px;
+        background-color: #ffeb34; /* Fundo branco para os ícones */
+        padding: 10px;
+    }
+/* Estilos para a seção "Campeões do Dia" */
+.champions-section {
+    margin: 20px;
+    background-color: rgb(19, 18, 18);
+    padding: 20px;
+    width: 50%; /* 30% de largura para a seção */
+    float: left; /* Adiciona flutuação para a esquerda */
+}
+
+    .champions-section h2 {
+        color: #333;
+    }
+
+.champion-list {
+    list-style: none;
+    padding: 0;
+}
+
+.champion-list-item {
+    border: 1px solid #ff65a3;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+}
+/* Estilos para botões */
+.button {
+    background-color: #ff0000; /* Vermelho */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .button:hover {
+        background-color: #cc0000; /* Vermelho mais escuro ao passar o mouse */
+    }
+/* Estilos para o botão de configurações */
+.settings-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #333; /* Cinza escuro */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .settings-button:hover {
+        background-color: #444; /* Cinza mais escuro ao passar o mouse */
+    }
+/* Estilos para o menu suspenso de configurações */
+.settings-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    border: 1px solid #333;
+    border-radius: 5px;
+    right: 20px;
+    top: 50px;
+    z-index: 1;
+}
+
+.settings-button:hover + .settings-dropdown {
+    display: block;
+}
+
+.settings-dropdown a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+    .settings-dropdown a:hover {
+        background-color: #333;
+    }
+/* Estilos para o botão "Jogar Agora" */
+.game-button {
+    background-color: #ff0000; /* Vermelho */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+}
+
+    .game-button:hover {
+        background-color: #cc0000; /* Vermelho mais escuro ao passar o mouse */
+    }
